@@ -29,7 +29,7 @@ El sistema debe solicitar la cantidad de camisas y el precio de las camisas*/
             Console.WriteLine("Digite la cantidad de camisas a comprar");
             camisas = Int32.Parse(Console.ReadLine());
 
-            if (2 <= camisas && camisas <= 5)
+            if (2 >= camisas && camisas <= 5)
             {
                 double totalcamisas = camisas * precio;
                 double precioQuince = precio * 0.15;
